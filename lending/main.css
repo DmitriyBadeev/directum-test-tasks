@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  background: #17A2B8;
+  align-items: center;
+  gap: 120px;
+  padding: 32px 0 129px;
+}
+
+.offer-nav {
+  display: flex;
+}
+
+.offer__burger {
+  display: none;
+}
+
+.offer-nav .offer-nav__menu {
+  display: flex;
+  list-style: none;
+  gap: 225px;
+  padding: 13px 0;
+  margin: 0;
+}
+
+.offer-nav .offer-nav__link {
+  color: white;
+  text-decoration: none;
+}
+
+.offer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-main__title {
+  color: white;
+  line-height: 1.5;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 48px 0 20px;
+}
+
+.offer-main__text {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.offer-main__button {
+  border-radius: 4px;
+  background: #2F418A;
+  transition: 0.3s all;
+  color: white;
+  border: none;
+  padding: 17px 52px;
+  font-size: 16px;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.offer-main__button:hover {
+  background: #203070;
+}
+
+@media only screen and (max-width: 1200px) {
+  .offer {
+    gap: 240px;
+    padding: 32px 0 240px;
+  }
+
+  .offer-nav {
+    width: 100%;
+  }
+
+  .offer-nav .offer-nav__menu {
+    gap: initial;
+    flex: auto;
+    justify-content: space-between;
+    padding: 13px 25px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .offer {
+    padding: 16px 0 44px;
+    gap: 48px;
+  }
+
+  .offer-nav {
+    position: absolute;
+
+  }
+
+  .offer-nav .offer-nav__menu {
+    display: none;
+  }
+
+  .offer__burger {
+    display: flex;
+    cursor: pointer;
+    align-self: flex-start;
+    padding-left: 20px;
+  }
+
+  .offer-main__title {
+    margin: 16px 0;
+  }
+
+  .offer-main__text {
+    margin: 8px 0;
+  }
+
+  .offer-main__button {
+    margin-top: 24px;
+  }
+}
+
+.text-block {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 48px 0;
+  background: #F8F9FA;
+}
+
+.text-block__text {
+  font-size: 16px;
+  margin: 0 0 16px 0;
+}
+
+.text-block__left {
+  width: 540px;
+  text-align: center;
+}
+
+.text-block__right {
+  padding: 15px;
+  width: 570px;
+}
+
+.text-block__bold {
+  font-weight: 600;
+}
+
+.text-block__title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.description {
+  display: flex;
+  font-size: 16px;
+}
+
+.description__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__label {
+  width: 165px;
+}
+
+.description__value {
+  width: 330px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-block {
+    flex-direction: column;
+    padding: 48px 38px;
+    gap: 48px;
+  }
+
+  .text-block__left {
+    width: auto;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .text-block__right {
+    width: auto;
+    padding: 0;
+  }
+
+  .text-block__bold {
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .text-block {
+    padding: 24px 15px;
+  }
+
+  .text-block__left {
+    display: none;
+  }
+
+  .text-block__right {
+    padding: 0;
+  }
+
+  .text-block__title {
+    text-align: left;
+  }
+}
+
+.price {
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.price__title-container {
+  text-align: center;
+}
+
+.price__title {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.price__sub-title {
+  font-size: 16px;
+}
+
+.price__table {
+  width: 1140px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.price__table td, .price__table th {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.price__table th {
+  text-align: left;
+  border-top: 1px solid #DEE2E6;
+  border-bottom: 1px solid #DEE2E6;
+}
+
+@media only screen and (max-width: 1200px) {
+  .price {
+    padding: 48px 38px;
+  }
+
+  .price__table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .price__title-container {
+    text-align: left;
+  }
+
+  .price {
+    padding: 24px 0 24px 15px;
+  }
+
+  .price__table-container {
+    overflow-y: auto;
+  }
+
+  .price__table {
+    min-width: 462px;
+    padding-right: 15px;
+  }
+}
+
+.picachu {
+  padding: 48px 0;
+  background: #F8F9FA;
+}
+
+.picachu__title {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 32px 0;
+}
+
+.picachu__title_default {
+  display: none;
+}
+
+.picachu__cards-container {
+  display: flex;
+  justify-content: center;
+  width: 1140px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .picachu__title_default {
+    display: block;
+  }
+
+  .picachu__title_large {
+    display: none;
+  }
+
+  .picachu__cards-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .picachu {
+    padding: 24px 15px;
+  }
+
+  .picachu__title {
+    text-align: left;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  max-width: 215px;
+}
+
+.card__img {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card__description {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  gap: 16px;
+  background: #F8F9FA;
+  margin-top: 48px;
+}
+
+.footer__logo {
+  width: 130px;
+}
+
+.footer__copy {
+  margin: 0;
+
+  color: #BABABA;
+  text-align: center;
+  font-size: 12px;
+}
+
+.dialog {
+  position: fixed;
+  inset: 0;
+  box-shadow: 0 0 15px 0 #0000001A;
+  border: none;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.dialog__content {
+  padding: 32px;
+}
+
+.dialog__title {
+  color: #9FA3AB;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 0 24px 0;
+}
+
+.dialog__close {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: 24px;
+  color: #BEC7CB;
+  cursor: pointer;
+}
+
+.dialog__close:hover {
+  color: #a5b1b6;
+}
+
+.dialog__form {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+@media only screen and (max-width: 580px) {
+  .dialog {
+    width: 100%;
+  }
+
+  .dialog__form {
+    width: 100%;
+  }
+}
+
+.dialog__input {
+  margin-bottom: 16px;
+  border: 1px solid #B5BFC3;
+  padding: 6px 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dialog__input::placeholder {
+  color: #B5BFC3;
+}
+
+.dialog__button {
+  margin-top: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 8px 14px;
+  border-radius: 4px;
+  background: #2F418A;
+  transition: 0.3s all;
+  color: white;
+  border: none;
+  align-self: center;
+}
+
+.dialog__button:hover {
+  background: #203070;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+      local("Segoe UI Light"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+      local("Segoe UI Semilight"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+      local("Segoe UI"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+      local("Segoe UI Bold"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+      local("Segoe UI Semibold"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+  font-weight: 700;
+}
+@ickata

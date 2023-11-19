@@ -1,0 +1,12 @@
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/bin/Debug/net6.0/Repositories.deps.json
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/bin/Debug/net6.0/Repositories.dll
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/bin/Debug/net6.0/Repositories.pdb
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.csproj.AssemblyReference.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.AssemblyInfoInputs.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.AssemblyInfo.cs
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.dll
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/refint/Repositories.dll
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/Repositories.pdb
+/Users/dbadeev/Documents/repos/directum/Repositories/Repositories/obj/Debug/net6.0/ref/Repositories.dll

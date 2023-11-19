@@ -1,0 +1,14 @@
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/bin/Debug/net6.0/DataAccess.runtimeconfig.json
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/bin/Debug/net6.0/DataAccess.dll
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/bin/Debug/net6.0/DataAccess.pdb
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.dll
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/refint/DataAccess.dll
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.pdb
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/DataAccess.genruntimeconfig.cache
+/Users/dbadeev/Documents/repos/directum/Repositories/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
